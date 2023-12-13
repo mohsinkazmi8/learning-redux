@@ -1,0 +1,45 @@
+.admin-table{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.admin-table button{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    background: linear-gradient(to right, #ffcc00, #ff6600);
+    font-weight: 600;
+    color: #fff;
+}
+.btn-delete{
+    background-color: inherit;
+    border: none;
+}
+.delete-icon{
+    color: red;
+    font-size: 20px;
+}
+.user-list{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 10px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.content ul :nth-last-child(-n+1) {
+    border-bottom: none;
+  }
+.content ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-clear-all{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    background: linear-gradient(to right, #ff0202, #ff6600);
+    font-weight: 600;
+    color: #fff;
+    margin: 10px 20%;
+}
