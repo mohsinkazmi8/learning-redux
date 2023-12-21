@@ -15,8 +15,8 @@ function DisplayTodo() {
     <>
       {
         todos.map((todo) => (
-            <div>
-                <div key={todo.id}>{todo.text}</div>
+            <div key={todo.id}>
+                <div >{todo.text}</div>
                 <button onClick={() => dispatch(removeTodo(todo.id))} >delete</button>
             </div>
             
